@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);
+
+html { height: 100%; }
+body { min-height: 100%; background-color: #e7e8e9;}
+
+*{
+  padding: 0;
+  margin: 0;
+}
