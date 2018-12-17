@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { IndexRoute, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 import Home from "./pages/home";
 import Execution from "./pages/home";
@@ -10,7 +10,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <IndexRoute component={Home} />
+                <Route path="/" exact component={Home} />
                 <Route path="/execution" component={Execution} />
                 <Route path="/algorithmic" component={Algorithmic} />
                 <Route path="/roadmap" component={Roadmap} />
