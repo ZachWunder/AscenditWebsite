@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Route } from "react-router-dom";
 
-import Home from "./pages/home";
-import Execution from "./pages/home";
-import Algorithmic from "./pages/home";
-import Roadmap from "./pages/home";
+import Home from "./pages/Home";
+import Execution from "./pages/Execution";
+import Algorithmic from "./pages/Algorithmic";
+import Roadmap from "./pages/Home";
 
 class App extends Component {
     render() {

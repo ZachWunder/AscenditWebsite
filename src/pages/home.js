@@ -14,7 +14,10 @@ const Home = () => (
             </Description>
             <Content contentArea="api-content">
                 <h1>Execution API</h1>
-                <p>A unified API for exchanges and so much more.</p>
+                <p>
+                    A unified API for exchanges with built-in performance tracking,
+                    paper trading and backtesting, and custom order types.
+                </p>
             </Content>
             <Content contentArea="algo-content">
                 <h1>Algorithmic Strategies</h1>
@@ -22,21 +25,6 @@ const Home = () => (
             </Content>
         </HomeWrapper>
     </React.Fragment>
-
-
 );
 
 export default Home;
-/*
-<div className="desc">
-    <h1>An algorithmic trading platform.</h1>
-</div>
-<div className="exec-content">
-    <h1>Execution API</h1>
-    <p>A unified API for exchanges and so much more.</p>
-</div>
-<div className="algo-content">
-    <h1>Algorithmic Strategies</h1>
-    <p>The fastest way to create, test, and run algorithmic trading strategies.</p>
-</div>
-*/

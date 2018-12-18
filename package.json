@@ -2,7 +2,6 @@
   "name": "ascenditwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ZachWunder.github.io/AscenditWebsite",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
