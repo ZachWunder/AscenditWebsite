@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "../components/Header/header";
 import AlgorithmicWrapper from "../components/Algorithmic/AlgorithmicWrapper";
-import Content from "../components/Algorithmic/Content";
+import Content from "../components/Content";
 
 const Algorithmic = () => (
     <React.Fragment>

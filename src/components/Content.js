@@ -4,7 +4,7 @@ const Content = styled.div`
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
     grid-area: ${props => props.contentArea};
-    padding-top: 1.5vw;
+    padding-top: 3vw;
 `
 
 export default Content;

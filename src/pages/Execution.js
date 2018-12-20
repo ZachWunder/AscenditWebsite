@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "../components/Header/header";
 import ExecutionWrapper from "../components/Execution/ExecutionWrapper";
-import Content from "../components/Execution/Content";
+import Content from "../components/Content";
 
 const Execution = () => (
     <React.Fragment>

@@ -4,7 +4,7 @@ import { Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Execution from "./pages/Execution";
 import Algorithmic from "./pages/Algorithmic";
-import Roadmap from "./pages/Home";
+import Roadmap from "./pages/Roadmap";
 
 class App extends Component {
     render() {
