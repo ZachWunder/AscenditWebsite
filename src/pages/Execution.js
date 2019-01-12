@@ -3,15 +3,20 @@ import React from "react";
 import Header from "../components/Header/header";
 import ExecutionWrapper from "../components/Execution/ExecutionWrapper";
 import Content from "../components/Content";
+import Banner from "../components/Execution/Banner";
 
-const Execution = () => (
+const API = () => (
     <React.Fragment>
         <Header />
+        <Banner>
+            <h1>Universal Exchange API</h1>
+            <p>A unified exchange API for portfolio management, algorithmic trading, and more.</p>
+        </Banner>
         <ExecutionWrapper>
-            <Content contentArea="main-content-1">
+            <Content contentArea="content-left-1">
                 <h1>Universal Exchange API</h1>
                 <p>
-                    The Ascendit Execution API is a unified API for both traditional and cryptocurrency exchanges.
+                    The Ascendit API is a unified API for both traditional and cryptocurrency exchanges.
                 </p>
                 <br />
                 <code>
@@ -20,7 +25,7 @@ const Execution = () => (
                     Example: https://api.ascendit.app/Fidelity/getBidAsk
                 </code>
             </Content>
-            <Content contentArea="main-content-2">
+            <Content contentArea="content-right-1">
                 <h1>Performance Tracking</h1>
                 <p>
                     All orders placed are automatically logged for simple calculation of performance statistics.
@@ -31,7 +36,7 @@ const Execution = () => (
                     multiple positions and orders under a group to track strategy performance.
                 </p>
             </Content>
-            <Content contentArea="main-content-3">
+            <Content contentArea="content-left-2">
                 <h1>Custom Order Types</h1>
                 <p>
                     Use a unified system for order types.
@@ -41,7 +46,7 @@ const Execution = () => (
                     Set trailing stop losses, even on exchanges that don't natively support them.
                 </p>
             </Content>
-            <Content contentArea="main-content-4">
+            <Content contentArea="content-right-2">
                 <h1>Paper Trading and Backtesting</h1>
                 <p>
                     Use paper trading to test functionality.
@@ -56,4 +61,4 @@ const Execution = () => (
     </React.Fragment>
 );
 
-export default Execution;
+export default API;

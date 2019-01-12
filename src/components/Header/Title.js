@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Title = styled.div`
-    color: #020024;
+    color: #E7E8E9;
     grid-area: title;
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;

@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
+import StyledLink from "./StyledLink";
 import HeaderWrapper from "./HeaderWrapper";
 import Title from "./Title";
 import NavTab from "./NavTab";
-
-import "./header.css";
 
 const Header = () => (
     <HeaderWrapper>
@@ -14,24 +12,24 @@ const Header = () => (
         </Title>
 
         <NavTab tabArea="nav-1">
-            <Link to="/" >
+            <StyledLink to="/" >
                 <h2>Home</h2>
-            </Link>
+            </StyledLink>
         </NavTab>
         <NavTab tabArea="nav-2">
-            <Link to="/execution" >
-                <h2>Execution</h2>
-            </Link>
+            <StyledLink to="/execution" >
+                <h2>API</h2>
+            </StyledLink>
         </NavTab>
         <NavTab tabArea="nav-3">
-            <Link to="/algorithmic" >
+            <StyledLink to="/algorithmic" >
                 <h2>Algorithmic</h2>
-            </Link>
+            </StyledLink>
         </NavTab>
         <NavTab tabArea="nav-4">
-            <Link to="/roadmap" >
+            <StyledLink to="/roadmap" >
                 <h2>Roadmap</h2>
-            </Link>
+            </StyledLink>
         </NavTab>
     </HeaderWrapper>
 );

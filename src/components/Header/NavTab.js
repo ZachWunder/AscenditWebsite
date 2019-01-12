@@ -7,6 +7,8 @@ const NavTab = styled.div`
     align-items: center;
     justify-content: center;
     font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 1vw;
+    padding-right: 1vw;
 `
 
 export default NavTab;

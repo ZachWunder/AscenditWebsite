@@ -13,7 +13,7 @@ const Home = () => (
                 <h1>An algorithmic trading platform.</h1>
             </Description>
             <Content contentArea="api-content">
-                <h1>Execution API</h1>
+                <h1>Universal Exchange API</h1>
                 <p>
                     A unified API for exchanges with built-in performance tracking,
                     paper trading and backtesting, and custom order types.
